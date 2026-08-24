@@ -22,21 +22,22 @@ To maximize cooling performance before running simulations, the physical structu
 
 ### 1. Two-Peltier Setup (Long Wall Array)
 * **Setup:** Two thermoelectric modules placed side-by-side along one of the long side walls.
-* **Velocity Dynamics:** Airflow velocity peaked at ~95.1 m/s near the active boundary faces. The adjacent placement created two distinct, symmetrical circulation loops sweeping downward and across the floor of the compartment.
-* **Thermal Behaviour:** Maintained a remarkably uniform temperature field (~271 K to 273 K) across the primary compartment volume.
+* **Velocity Dynamics:** Airflow velocity peaked at ~95.1 m/s near the active boundary faces. The adjacent placement created two distinct, symmetrical circulation loops sweeping downward and across the floor of the compartment.![alt text](images/2-config-v2-streamline.jpg)
+* **Thermal Behaviour:** Maintained a remarkably uniform temperature field (~271 K to 273 K) across the primary compartment volume.![alt text](images/2-config-temp01.jpg)
 * **Key Finding:** While thermal distribution was even, omitting active cooling on the opposing short wall left the far end dependent on secondary boundary currents, making it ideal for low-power steady-state holding rather than fast pull-down.
+
 
 ### 2. Three-Peltier Setup (Multi-Wall Array)
 * **Setup:** Two modules positioned along the long wall and one added to the adjacent short wall.
-* **Velocity Dynamics:** Produced higher localized forced convection velocity (~194.7 m/s peak localized scale) and introduced a complex, asymmetrical multi-directional flow loop.
-* **Thermal Behaviour:** Generated deeper localized cooling drops (~270.9 K / -2.2°C) and rapidly dispersed cold air throughout the main volume.
+* **Velocity Dynamics:** Produced higher localized forced convection velocity (~194.7 m/s peak localized scale) and introduced a complex, asymmetrical multi-directional flow loop.![alt text](images/3-config-v2-streamline.jpg)
+* **Thermal Behaviour:** Generated deeper localized cooling drops (~270.9 K / -2.2°C) and rapidly dispersed cold air throughout the main volume.![alt text](images/3-config-temp1.jpg)
 * **Key Finding:** The asymmetrical layout dramatically increased mixing and reduced transient cooling times, providing superior pull-down performance when surplus power is available from the dynamo.
-
-![alt text](/images/2-config-v1)
 
 ---
 
 ## Key Learning Outcomes
 * **Boundary Layer Flow:** Confirmed through streamline post-processing that internal corner fillets successfully eliminated flow stagnation, allowing cold air currents to hug the insulation walls smoothly.
-* **CFD Workflow Mastery:** Gained practical, self-taught experience in defining thermal-fluid boundary conditions, analyzing convergence, and interpreting velocity contours and 3D streamline plots in ANSYS Fluent.
+* **CFD Workflow Mastery:** Gained practical, self-taught experience in defining thermal-fluid boundary conditions, analysing convergence, and interpreting velocity contours and 3D streamline plots in ANSYS Fluent.
 * **Trade-off Evaluation:** Demonstrated how numeric simulation guides real-world engineering decisions—balancing thermal pull-down performance against system power consumption in off-grid mobile applications.
+
+![alt text](images/2-config-v1.jpg), ![alt text](images/1-config-temp02.jpg)![alt text](images/3-config-v1.jpg), ![alt text](images/3-config-temp2.jpg)![alt text](images/3-config---v3-streamline.jpg), ![alt text](images/3-config---v4-streamline.jpg)![alt text](images/3-config--1.jpg), ![alt text](images/3-config--2.jpg)
