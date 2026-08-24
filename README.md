@@ -1,7 +1,9 @@
 # Thermoelectric Ice-Cream Chest (Thermal & CFD Analysis)
 ---
-**Tools:** ANSYS Fluent 2024 R1 | CAD Modelling | Computational Fluid Dynamics |
+**Tools:** ANSYS Fluent 2024 R1 | CAD Modelling | Computational Fluid Dynamics | 
+
 **Type:** Self-Directed Learning Project (2024)
+
 
 ## Project Overview & Design Intent
 Street ice-cream vendors often operate without reliable access to grid electricity, relying on heavy, passive cold packs or direct power setups that limit mobility. The purpose of this study investigated the thermal behaviour, velocity distribution, and cold-air recirculation patterns inside a thermoelectric (Peltier-based) refrigeration system (i.e. portable ice-cream chest) designed for off-grid operations. It utilizes an integrated battery and dynamo system driven by the cart system; which acts as a generator producing energy rather than direct power connections which is lacked in the ice-cream carts. The project evaluated how Peltier placement impacts cooling uniformity, boundary layer behaviour, and Coefficient of Performance (COP).
@@ -29,6 +31,8 @@ To maximize cooling performance before running simulations, the physical structu
 * **Velocity Dynamics:** Produced higher localized forced convection velocity (~194.7 m/s peak localized scale) and introduced a complex, asymmetrical multi-directional flow loop.
 * **Thermal Behaviour:** Generated deeper localized cooling drops (~270.9 K / -2.2°C) and rapidly dispersed cold air throughout the main volume.
 * **Key Finding:** The asymmetrical layout dramatically increased mixing and reduced transient cooling times, providing superior pull-down performance when surplus power is available from the dynamo.
+
+![alt text](/images/2-config-v1)
 
 ---
 
