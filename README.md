@@ -40,4 +40,4 @@ To maximize cooling performance before running simulations, the physical structu
 * **CFD Workflow Mastery:** Gained practical, self-taught experience in defining thermal-fluid boundary conditions, analysing convergence, and interpreting velocity contours and 3D streamline plots in ANSYS Fluent.
 * **Trade-off Evaluation:** Demonstrated how numeric simulation guides real-world engineering decisions—balancing thermal pull-down performance against system power consumption in off-grid mobile applications.
 
-![alt text](images/2-config-v1.jpg), ![alt text](images/1-config-temp02.jpg)![alt text](images/3-config-v1.jpg), ![alt text](images/3-config-temp2.jpg)![alt text](images/3-config---v3-streamline.jpg), ![alt text](images/3-config---v4-streamline.jpg)![alt text](images/3-config--1.jpg), ![alt text](images/3-config--2.jpg)
+![alt text](images/2-config-v1.jpg)![alt text](images/2-config-temp02.jpg)![alt text](images/3-config-v1.jpg)![alt text](images/3-config-temp2.jpg)![alt text](images/3-config---v3-streamline.jpg)![alt text](images/3-config---v4-streamline.jpg)![alt text](images/3-config--1.jpg)![alt text](images/3-config--2.jpg)
